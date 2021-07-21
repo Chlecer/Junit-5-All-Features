@@ -30,6 +30,7 @@ public class Junit5ExampleFeaturesTest {
     @DisplayName("Test first test")
     void test() {
         //fail("Not yet implemented");
+        assertEquals(0, 1);
     }
 
     @Test
@@ -52,7 +53,7 @@ public class Junit5ExampleFeaturesTest {
     }
 
     @DisplayName("Testing will be execute n times, great for thread or assync code")
-    @RepeatedTest(10)
+    @RepeatedTest(3)
     void repeatTest() {
         String str = null;
         assertThrows(NullPointerException.class, () -> {str.length();});
