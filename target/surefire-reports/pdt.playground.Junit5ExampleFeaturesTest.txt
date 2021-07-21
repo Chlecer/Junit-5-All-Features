@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: pdt.playground.Junit5ExampleFeaturesTest
--------------------------------------------------------------------------------
-Tests run: 19, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 0.179 s <<< FAILURE! - in pdt.playground.Junit5ExampleFeaturesTest
-pdt.playground.Junit5ExampleFeaturesTest.test  Time elapsed: 0 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <0> but was: <1>
-	at pdt.playground.Junit5ExampleFeaturesTest.test(Junit5ExampleFeaturesTest.java:33)
-
